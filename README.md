@@ -14,5 +14,4 @@
 
     mvn clean package -Dmaven.test.skip=true  这个是直接跳过单元测试.
     
-    
-controller调用service中的方法.当请求进来之后执行的过程是要抛异常.这些异常有handle来处理.
+三.controller调用service中的方法.当请求进来之后执行的过程是要抛异常.这些异常有handle来处理.
