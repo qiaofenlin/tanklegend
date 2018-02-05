@@ -3,7 +3,7 @@ package com.yjg.tanklegend.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
-
+/*特殊的配置文件,可以通过在.yml配置文件中-->见HelloComtroller例子*/
 @Component
 @ConfigurationProperties(prefix = "girl")
 public class GirlProperties {

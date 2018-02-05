@@ -3,8 +3,10 @@ package com.yjg.tanklegend.domain;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "tank_user")
 public class TankUser {
 
     @Id
